@@ -1,4 +1,4 @@
 # Midi-Planter 1.4
-Midi Planter is a midi instrument that senses bio-signals or conductivity in the roots and the soil of a house plant. The ranges of the bio-signals are then mapped to midi notes ands sent over usb and trs to a computer, smartphone or analog synthesizer. 
+Midi Planter is a midi instrument that senses bio-signals in the roots and the soil of a house plant. The ranges of the bio-signals are mapped to midi notes ands sent to a computer, smartphone or analog synthesizer. 
 
 
