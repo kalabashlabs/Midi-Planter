@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kalabashlabs.github.io/Midi-Planter/'
 languageCode = 'en-us'
 title = 'MP14 MIDI Planter 1.4 Assembly Manual'
 theme = 'hugo-book-Kalabash'
