@@ -29,6 +29,9 @@ jobs:
         run: ${RUNNER_TEMP}/hugo
         working-directory: ./docs
 
+      - name: Create .nojekyll file
+        run: echo "" > ./docs/public/.nojekyll  # Adjust the path if necessary
+
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
