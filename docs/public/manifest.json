@@ -1,14 +1,14 @@
 {
   "name": "MP14 MIDI Planter 1.4 Assembly Manual",
   "short_name": "MP14 MIDI Planter 1.4 Assembly Manual",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/Midi-Planter/",
+  "scope": "/Midi-Planter/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/Midi-Planter/favicon.svg",
       "sizes": "512x512"
     }
   ]
