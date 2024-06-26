@@ -30,12 +30,12 @@ jobs:
         working-directory: ./docs
 
       - name: Create .nojekyll file
-        run: echo "" > docs/public/.nojekyll  # Adjust the path if necessary
+        run: echo "" > docs/content/.nojekyll  # Adjust the path if necessary
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
         run: |
-          cp -R docs/public/* ${GITHUB_WORKSPACE}/built-site/
+          cp -R docs/content/* ${GITHUB_WORKSPACE}/built-site/
           cd ${GITHUB_WORKSPACE}/built-site
           git add .
           git config user.name 'kalabash'
