@@ -1,0 +1,44 @@
+baseURL = 'https://kalabashlabs.github.io/Midi-Planter/'
+languageCode = 'en-us'
+title = 'MP14 MIDI Planter 1.4 Assembly Manual'
+theme = 'hugo-book-Kalabash'
+
+[params]
+  mainSections = ["content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "safety"
+    name = "Safety"
+    url = "#safety"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "materials-list"
+    name = "Materials List"
+    url = "#materials-list"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "printed-circuit-board"
+    name = "Printed Circuit Board"
+    url = "#printed-circuit-board"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "mp14-firmware-setup-guide"
+    name = "MP14 Firmware Setup Guide"
+    url = "#mp14-firmware-setup-guide"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "3d-printed-components"
+    name = "3D Printed Components"
+    url = "#3d-printed-components"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "component-assembly"
+    name = "Component Assembly"
+    url = "#component-assembly"
+    weight = 6
