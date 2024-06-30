@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'MP14'
+title = 'MP14 Assembly Guide'
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
