@@ -1,0 +1,116 @@
+# Replace the text below to customize your site
+site_name: Jordan Hodges - MDEF & Fab Lab Barcelona
+site_description: Master in Design for Emergent Futures
+site_author: Jordan Hodges
+copyright: Copyleft 2021 "Jordan Hodges" - GNU Free Documentation License
+repo_name: "Name : Github Repo"
+site_url: https://kalabashlabs.github.io/mp14/
+repo_url: "https://github.com/kalabashlabs/Midi-Planter"
+
+nav:
+  - Home: index.md
+  - About: about/me.md
+  - Thesis Projects:
+      - Design Intervention: project/project.md
+  - Reflections:
+      - Term 1:
+          - Bootcamp: term1/01-Bootcamp.md
+          - studio: term1/01-studio.md
+          - AoWS: term1/02-Atlas of Weak Signals.md
+          - BioAgri: term1/03-BioAgri.md
+          - Living With Your Own Ideas: term1/04-Living With Your Own Ideas.md
+          - Tech Beyond the Myth: term1/05-Tech Beyond the Myth.md
+          - Community Engagement: term1/06-Community Engagement.md
+          - Extended Intelligences: term1/07-Extended Intelligences.md
+      - Term 2:
+          - Prototyping for Design: term2/Prototyping For Design.md
+          - Making Sense and Meaning: term2/Making Sense and Meaning.md
+
+extra:
+  social:
+    # For other social icons at https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/
+    - icon: fontawesome/brands/linkedin
+      link: "https://www.linkedin.com/in/"
+    - icon: fontawesome/brands/github
+      link: "https://github.com/"
+
+theme:
+  name: material
+  palette:
+    # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
+    primary: white
+    accent: green
+  font:
+    # See available fonts at https://fonts.google.com/
+    text: AOMono
+    code: Cutive Mono
+  icon:
+    logo: material/memory
+  favicon: images/favicon.svg
+  features:
+    - instant
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - extra
+  - smarty
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - md_in_html
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      base_path: "docs"
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.tabbed
+
+extra_css:
+  - stylesheets/extra.css
+  - https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css

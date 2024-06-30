@@ -1,0 +1,66 @@
+:root>* {
+
+    --md-footer-bg-color: #F2E8D9;
+    --md-footer-fg-color: rgb(32, 32, 32);
+    --md-footer-bg-color--dark: #F2E8D9;
+    --md-footer-fg-color--lighter:  rgb(32, 32, 32);
+    --md-footer-fg-color--light:  rgb(32, 32, 32);
+    --mdc-typography-headline6-font-family: 'AOMono';
+    --mdc-typography-font-family: 'AOMono';
+    --md-typeset-a-color: #DFBC8C;
+
+}
+
+@font-face {
+  font-family: "AOMono";
+  src: "fonts/AOMono-Regular.otf";
+} 
+
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .md-typeset .md-button--primary {
+    border-width: 1px;
+    border-color: #F2E8D9;
+    border-radius: 4px;
+  }
+
+ .md-header {
+  background-color: #F2E8D9;
+  color: black;
+  }
+
+  .md-header[data-md-state=shadow] {
+    box-shadow: none;
+  }
+
+  .md-main {
+    background-color: #F2E8D9;
+  }
+
+.cardContent {
+  padding: 16px;
+  font-size: 16px;
+  color: rgb(32, 32, 32);
+}
+
+.md-typeset h2 {
+    font-weight: 500;
+}
+
+.mdc-typography--body2 {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 76.1875em) {
+  .md-nav {
+   background-color: #F2E8D9; 
+ }
+ }
