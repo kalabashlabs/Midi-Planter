@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Supply";
+    src: url("kala_fonts/Supply-Regular.ttf") format("truetype"); }
+
+@font-face {
+    font-family: HelveticaNow;
+    src: url("kala_fonts/HelveticaNowText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: HelveticaNowBlack;
+    src: url("kala_fonts/HelveticaNowText-ExtraBold.ttf") format("truetype");
+}
+
+:root {
+    --md-text-font: 'HelveticaNow'; 
+  }
+
+ .md-nav__title{
+    font-family: 'Supply' ;
+    color: black;   
+}
+
+.md-footer {
+    background-color: white;
+}
+
+.md-footer-meta {
+    background-color: white;
+}
+
+.md-header__button.md-logo {
+    display: none;
+}
+
+.md-typeset h1 {
+    font-family: 'HelveticaNowBlack';
+    color: black;
+}
+
+.md-header--shadow {
+    box-shadow: none;
+}
