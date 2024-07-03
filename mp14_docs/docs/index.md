@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# MP14 Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Kalabash Labs' MP14 is a planter and a polyphonic MIDI controller which utilizes bioelectrical signals from living organisms inside of soil as a source of input, converting them into control voltages that can be interpreted as notes within any desired chromatic scale.
 
-## Commands
+**Features and Compatibility**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Musical Scales: Bio signals that are measured can be mapped to Chromatic, Major, Minor, Indian and Dorian.
+- MIDI OFF: Pause midi messages sent to external device.
+- Open Source: Designed specifically community collaboration.
+  Adafruit Trinket M0: Utilizes the Adafruit Trinket M0 for processing and communication.
+- Connectability: Connect to any instrument that accepts midi-In.
 
-## Project layout
+**References**
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [galvanic_midi](https://github.com/jarvisb1/galvanic_midi/tree/master)
+- [Biodata Sonification Breadboard Kit](https://github.com/electricityforprogress/BiodataSonificationBreadboardKit)
