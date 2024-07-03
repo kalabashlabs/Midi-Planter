@@ -7,7 +7,7 @@ Kalabash Labs' MP14 is a planter and a polyphonic MIDI controller which utilizes
 - Musical Scales: Bio signals that are measured can be mapped to Chromatic, Major, Minor, Indian and Dorian.
 - MIDI OFF: Pause midi messages sent to external device.
 - Open Source: Designed specifically community collaboration.
-  Adafruit Trinket M0: Utilizes the Adafruit Trinket M0 for processing and communication.
+- Adafruit Trinket M0: Utilizes the Adafruit Trinket M0 for processing and communication.
 - Connectability: Connect to any instrument that accepts midi-In.
 
 **References**
