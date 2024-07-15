@@ -78,16 +78,16 @@ volatile unsigned long samples[samplesize];
 unsigned long previousMillis = 0;
 unsigned long currentMillis = 1;
 
-float threshold = 1.7;   //2.3;  //change threshold multiplier
-float threshMin = 1.61;  //scaling threshold min
-float threshMax = 3.71;  //scaling threshold max
+float threshold = 1.0;   //2.3;  //change threshold multiplier
+float threshMin = 1.0;  //scaling threshold min
+float threshMax = 1.0;  //scaling threshold max
 float knobMin = 1;
 float knobMax = 1024;
 
 //MIDI note config
 const byte polyphony = 5;  //above 8 notes may run out of ram
 int channel = 1;           //setting channel to 11 or 12 often helps simply computer midi routing setups
-int noteMin = 36;          //C1  - keyboard note minimum
+int noteMin = 48;          //C3  - keyboard note minimum
 int noteMax = 96;          //C7  - keyboard note maximum
 
 //set scaled values, sorted array, first element scale length
