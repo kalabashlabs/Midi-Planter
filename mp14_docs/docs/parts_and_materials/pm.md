@@ -4,7 +4,7 @@
 
 ![PCB_Image](overview1.jpg){ width="300" }
 
-Below is a list of components needed to assmeble the pcb. It is recommended to source these components locally from a Maker Space/ Fabrication Lab or a local electronics store. You can find the Gerber file for the PCB [here]().
+Below is a list of components needed to assmeble the pcb. It is recommended to source these components locally from a Maker Space/ Fabrication Lab or a local electronics store. You can find the Gerber file for the PCB [here](https://github.com/kalabashlabs/Midi-Planter/tree/38d511a70ebe548d43128dbe252c7a7642a91098/assets/schematics).
 
 | Part                       | Online                                                                                    | Quantity |
 | -------------------------- | ----------------------------------------------------------------------------------------- | -------- |
@@ -31,7 +31,7 @@ Below is a list of components needed to assmeble the pcb. It is recommended to s
 - Button
 - Knob
 
-These 3D Design Files can be found [here]()
+These 3D Design Files can be found [here](https://github.com/kalabashlabs/Midi-Planter/tree/38d511a70ebe548d43128dbe252c7a7642a91098/assets/stl)
 
 Below is a list of screws and nuts needed to assemble the 3D parts.
 
